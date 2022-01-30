@@ -17,13 +17,13 @@ public class L33_McmRecursive
 	{
 		if(i>=j)
 			return 0;
-		int min = Integer.MAX_VALUE;
+		int ans = Integer.MAX_VALUE;
 
 		for(int k = i ; k<j; k++)
 		{
-			int tempAns = mcm(arr, i, k) + mcm(arr, k+1, j) + arr[i-1]*arr[k]*arr[j];
-			if(tempAns < min)
-				min = tempAns;
+			int ans = mcm(arr, i, k) + mcm(arr, k+1, j) + arr[i-1]*arr[k]*arr[j];
+			if(ans < min)
+				min = ans;
 		}
 
 
