@@ -4,10 +4,10 @@ public class L20_LcsMemoize
 {
 	public static void main(String[] args)
 	{
-		String a = "abcde";
-		String b = "ace";
-		int result = longestCommonSubsequence(a,b);
-		System.out.println(result);
+//		String a = "abcde";
+//		String b = "ace";
+//		int result = longestCommonSubsequence(a,b);
+//		System.out.println(result);
 	}
 
 

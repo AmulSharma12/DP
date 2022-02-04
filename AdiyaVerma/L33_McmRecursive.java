@@ -5,11 +5,11 @@ public class L33_McmRecursive
 {
 	public static void main(String[] args)
 	{
-		int[] arr = {40, 20, 30, 10, 30};
-		int n = arr.length;
-
-		int result = mcm(arr, 1, n-1);
-		System.out.println(result);
+//		int[] arr = {40, 20, 30, 10, 30};
+//		int n = arr.length;
+//
+//		int result = mcm(arr, 1, n-1);
+//		System.out.println(result);
 	} 
 
 
@@ -21,12 +21,12 @@ public class L33_McmRecursive
 
 		for(int k = i ; k<j; k++)
 		{
-			int ans = mcm(arr, i, k) + mcm(arr, k+1, j) + arr[i-1]*arr[k]*arr[j];
+			 int min = mcm(arr, i, k) + mcm(arr, k+1, j) + arr[i-1]*arr[k]*arr[j];
 			if(ans < min)
-				min = ans;
+				ans = min;
 		}
 
 
-		return min;
+		return ans;
 	}
 }

@@ -4,14 +4,14 @@ public class L14_RodCutting
 {
 	public static void main(String[] args)
 	{
-		int n = ;
-		int[] length = {};
-		int[] price = {};
-		int l = ;
-
-
-		int maxProfit = rodCutting(length, price, l, n);
-		System.out.println(maxProfit);
+//		int n = ;
+//		int[] length = {};
+//		int[] price = {};
+//		int l = ;
+//
+//
+//		int maxProfit = rodCutting(length, price, l, n);
+//		System.out.println(maxProfit);
 	}
 
 

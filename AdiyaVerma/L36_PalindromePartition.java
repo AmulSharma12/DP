@@ -48,10 +48,9 @@ public class L36_PalindromePartition
 
     	if(x.charAt(i) != x.charAt(j))
     		return false;
-    	i++;
-    	j--;
+    	
 
-    	return true;
+    	return isPalindrome(x, i+1, j-1);  
 
     }
 }

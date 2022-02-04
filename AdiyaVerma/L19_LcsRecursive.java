@@ -4,10 +4,10 @@ public class L19_LcsRecursive
 {
 	public static void main(String[] args)
 	{
-		String a = "abcde";
-		String b = "ace";
-		int result = longestCommonSubsequence(String text1, String text2);
-		System.out.println(result);
+//		String a = "abcde";
+//		String b = "ace";
+//		int result = longestCommonSubsequence(String text1, String text2);
+//		System.out.println(result);
 
 	}
 
