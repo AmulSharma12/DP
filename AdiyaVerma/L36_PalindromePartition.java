@@ -12,7 +12,7 @@ public class L36_PalindromePartition
 	 public static int minCut(String s) {
         int n = s.length();
 
-        return minCutToMakePalindrome(s, 1, n-1);
+        return minCutToMakePalindrome(s, 1, n-1); 
     }
 
 
